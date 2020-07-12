@@ -1,0 +1,50 @@
+/*居中 */
+.valign {
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -webkit-box-align: center!important;
+    -webkit-align-items: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.center {
+    display: block!important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+
+/* 吉祥物 */
+.mascot {
+    height: 100vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#mascot-fap {
+    background-image: url(Orifushi-Mafuyu.svg);
+    
+}
+#mascot-fun {
+    background-image: url(Miyauchi-Renge.svg);
+}
+#mascot-fun-dark {
+    background-image: url(Megumin.svg);
+}
+
+/* 布局 */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #424242;
+    filter: brightness(.8);
+    overflow: hidden;
+}
+.container-full {
+    float: left;
+    width: 100%;
+}
+.container-half {
+    float: left;
+    width: 33.33%;
+}
